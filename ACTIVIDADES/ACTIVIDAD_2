@@ -1,7 +1,7 @@
+<!-- Codico de Jharen -->
 <!-- 2. EXPERIENCIA DE PRÁCTICA N° 02: FORMULARIO WEB -->
+<html>
 
-    <br>
-    
     <form action="/my-handling-form-page" method="post">
         <ul>
             <li>
@@ -19,4 +19,4 @@
         </ul>
     </form>
 
-
+</html>

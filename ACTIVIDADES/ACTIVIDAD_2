@@ -17,7 +17,13 @@
                 <textarea id="msg" name="user_message"></textarea>
             </li>
             <br>
+            <li>
             <input type="text" value="por defecto este elemento se llena con este texto">
+            </li>
+            <br>
+            <li>
+            <textarea>Por defecto, este elemento contiene este texto</textarea>
+            </li>
         </ul>
     </form>
 

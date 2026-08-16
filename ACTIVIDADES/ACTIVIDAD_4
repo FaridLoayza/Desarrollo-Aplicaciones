@@ -1,1 +1,26 @@
+ <!-- Codigo de Rosa -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio de Rosa - Desarrollo Web</title>
+    <meta name="description" content="Portafolio profesional de Rosa, estudiante de Ingeniería de Sistemas, con proyectos de desarrollo web usando HTML5, CSS y JavaScript.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, portafolio, desarrollo web">
+    <meta name="author" content="Rosa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Open Graph -->
+    <meta property="og:title" content="Portafolio de Rosa - Desarrollo Web">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ejemplo.com/imagenes/portada.jpg">
+    <meta property="og:url" content="https://ejemplo.com/">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@rosa_dev">
+</head>
+<body>
+    <h1>Página de prueba de metadatos</h1>
+    <p>Ejemplo en japonés: ご飯が熱い。</p>
+</body>
+</html>

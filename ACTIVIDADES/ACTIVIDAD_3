@@ -71,3 +71,208 @@
     </table>
 </body>
 </html>
+
+
+/*************************************************************************************************
+ARCHIVO        : TABLAHTML.HTML
+AUTOR          : ANA PAULA BRUNO
+FECHA          : 15/08/2026
+DESCRIPCIÓN    : Una tabla simple creada utilizando HTML.
+*************************************************************************************************/
+
+<table>
+    <tr>
+        <td>Primera celda</td>
+        <td>Segunda celda</td>
+        <td>Tercera celda</td>
+        <td>Cuarta celda</td>
+    </tr>
+
+    <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+    </tr>
+
+    <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+    </tr>
+</table>
+
+<!--
+*************************************************************************************************
+ARCHIVO        : TABLAHTML.HTML
+AUTOR          : ANA PAULA BRUNO
+FECHA          : 15/08/2026
+DESCRIPCIÓN    : Tabla HTML con encabezados.
+*************************************************************************************************
+-->
+
+<table>
+    <tr>
+        <th>Primera celda</th>
+        <th>Segunda celda</th>
+        <th>Tercera celda</th>
+        <th>Cuarta celda</th>
+    </tr>
+
+    <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+    </tr>
+
+    <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+    </tr>
+</table>
+
+<!--
+*************************************************************************************************
+ARCHIVO        : TABLAHTML.HTML
+AUTOR          : ANA PAULA BRUNO
+FECHA          : 15/08/2026
+DESCRIPCIÓN    : Tabla HTML aplicando un estilo común a una columna.
+*************************************************************************************************
+-->
+
+<table>
+    <colgroup>
+        <col>
+        <col style="background-color: yellow">
+    </colgroup>
+
+    <tr>
+        <th>Dato 1</th>
+        <th>Dato 2</th>
+    </tr>
+
+    <tr>
+        <td>Calcuta</td>
+        <td>Pizza</td>
+    </tr>
+
+    <tr>
+        <td>Robots</td>
+        <td>Jazz</td>
+    </tr>
+</table>
+
+<!--
+*************************************************************************************************
+ARCHIVO        : TIMETABLE.HTML
+AUTOR          : ANA PAULA BRUNO
+FECHA          : 15/08/2026
+DESCRIPCIÓN    : Tabla de horario de cursos de idiomas 
+*************************************************************************************************
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>School timetable</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 15px 25px;
+            height: 45px;
+        }
+
+        th {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>School timetable</h1>
+
+<table>
+
+    <colgroup>
+        <col>
+        <col>
+        <col style="background-color:#97DB9A;">
+        <col style="width:42px;">
+        <col style="background-color:#97DB9A;">
+        <col style="background-color:#DCC48E; border:4px solid #C1437A;">
+        <col style="width:42px;">
+        <col style="width:42px;">
+    </colgroup>
+
+    <tr>
+        <th></th>
+        <th>Mondau</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sun</th>
+    </tr>
+
+    <tr>
+        <th>1st<br>period</th>
+        <td>English</td>
+        <td></td>
+        <td></td>
+        <td>German</td>
+        <td>Dutch</td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <th>2nd<br>period</th>
+        <td>English</td>
+        <td>English</td>
+        <td></td>
+        <td>German</td>
+        <td>Dutch</td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <th>3rd<br>period</th>
+        <td></td>
+        <td>German</td>
+        <td></td>
+        <td>German</td>
+        <td>Dutch</td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <th>4th<br>period</th>
+        <td></td>
+        <td>English</td>
+        <td></td>
+        <td>English</td>
+        <td>Dutch</td>
+        <td></td>
+        <td></td>
+    </tr>
+
+</table>
+
+</body>
+</html>
